@@ -19,6 +19,7 @@ fetch("./data.json")
 let today = new Date().getDay();
 today = today - 1;
 
+bars[-1] = bars[6];
 for (i = 0; i < bars.length; i++) {
   bars[i].classList.remove("today");
 }
