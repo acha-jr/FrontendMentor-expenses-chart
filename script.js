@@ -24,6 +24,3 @@ for (i = 0; i < bars.length; i++) {
   bars[i].classList.remove("today");
 }
 bars[today].classList.add("today");
-
-let parts = location.hostname.split(".");
-console.log(parts[0]);
