@@ -23,4 +23,5 @@ bars[-1] = bars[6];
 for (i = 0; i < bars.length; i++) {
   bars[i].classList.remove("today");
 }
+
 bars[today].classList.add("today");
