@@ -24,3 +24,5 @@ for (i = 0; i < bars.length; i++) {
   bars[i].classList.remove("today");
 }
 bars[today].classList.add("today");
+
+console.log(window.location.hostname);
